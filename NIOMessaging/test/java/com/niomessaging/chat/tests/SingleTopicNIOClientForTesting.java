@@ -1,3 +1,12 @@
+/*
+ * Copyright (c) 2014.  Luca Pertile
+ *
+ * "THE BEER-WARE LICENSE" (Revision 3.14159)
+ * As long as you retain this notice you can do whatever you want with this stuff.
+ * If we meet some day, and you think this stuff is worth it, you can buy me a beer in return
+ * There is no warranty.
+ */
+
 package com.niomessaging.chat.tests;
 
 import java.net.*;
@@ -24,6 +33,7 @@ public class SingleTopicNIOClientForTesting implements Runnable {
 
 	private Selector selector;
 
+	//TODO: automate the test of different buffer sizes
 	private ByteBuffer buf = ByteBuffer.allocate(256);
 
 	private Logger LOGGER = LogManager
