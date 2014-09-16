@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/mandara/chat/ChatClient.java|com/mandara/chat/FinalClient.java|com/mandara/chat/ResponseHandler.java|com/mandara/chat/ChatMessage.java|com/mandara/chat/SwitchRequest.java|com/mandara/chat/Messaging.java" kind="src" path="main/java"/>
+	<classpathentry kind="src" path="test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="log4j-core-2.0.1.jar"/>
+	<classpathentry kind="lib" path="log4j-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="tempus-fugit-1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
